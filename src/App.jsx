@@ -99,7 +99,6 @@ function App() {
           </h4>
           <form onSubmit={modoEdicion ? editarTarea:  agregarTarea}>
             {error ? ( <span className="text-danger">{error}</span>): ''}
-            
             <input
               type="text"
               className="form-control mb-2"
